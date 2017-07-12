@@ -56,8 +56,11 @@ typings/
 .yarn-integrity
 
 # dotenv environment variables file
-# .env
+.env
 
 
 # Package lock
-.package-lock.json
+# .package-lock.json
+
+# SQLite3
+*.sqlite3
