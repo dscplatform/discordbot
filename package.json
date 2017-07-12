@@ -1,0 +1,22 @@
+{
+  "name": "discordbot",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dscplatform/discordbot.git"
+  },
+  "author": "Leif Andreas Rudlang",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dscplatform/discordbot/issues"
+  },
+  "homepage": "https://github.com/dscplatform/discordbot#readme",
+  "dependencies": {
+    "discord.js-commando": "^0.9.0"
+  }
+}
