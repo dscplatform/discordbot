@@ -8,13 +8,13 @@ import os
 os.environ["TF_CPP_MIN_LOG_LEVEL"] = "2"
 
 # Parameters
-version = 3
+version = 4
 words = 10000
 review_len = 128
 vec_len = 300
 patience = 5
-batch_size = 1
-epochs = 30
+batch_size = 15
+epochs = 20
 
 # Load data
 X, y = build_dataset(review_len)

@@ -67,3 +67,6 @@ typings/
 
 # H5 Keras Models
 *.h5
+
+# Datasets
+twitter.csv

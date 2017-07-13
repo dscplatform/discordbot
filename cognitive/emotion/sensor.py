@@ -5,7 +5,7 @@ import os
 os.environ["TF_CPP_MIN_LOG_LEVEL"] = "2"
 
 # Parameters
-version = 3
+version = 4
 review_len = 128
 
 # Model
@@ -23,9 +23,12 @@ def predict_batch(arr):
     return result
 
 print(predict_batch([
+"yes",
 "good",
-"this was the best thing ever",
+"this is the best thing ever",
+"nice",
 "bad",
 "such a horrible judgement",
-"nice"
+"no",
+"shitty"
 ]))
