@@ -64,3 +64,6 @@ typings/
 
 # SQLite3
 *.sqlite3
+
+# H5 Keras Models
+*.h5
