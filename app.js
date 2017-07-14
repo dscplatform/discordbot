@@ -13,7 +13,7 @@ const client = new Commando.Client({
 
 client.registry
 .registerGroups([
-  ["test", "test commands"]
+  ["test", "Debug and test commands"]
 ])
 .registerDefaults()
 .registerCommandsIn(path.join(__dirname, "commands"));
