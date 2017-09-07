@@ -70,3 +70,6 @@ typings/
 
 # Datasets
 twitter.csv
+legacy/
+cognitive/logic/*
+cognitive/vision/*

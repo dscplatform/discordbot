@@ -22,7 +22,6 @@ def encode_word(word):
 
 
 def build_dataset(max_len):
-    #df = pd.read_csv("data/set.csv", delimiter=",", names=["y", "X"])
     df = pd.read_csv("data/twitter.csv", delimiter=",", names=["y", "X"], usecols=[1,3], header=None, nrows=6000)
     Xts = df["X"].values
     arr = []
